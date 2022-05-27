@@ -7,3 +7,8 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.image {
+  width: 150px;
+  object-fit: contain;
+  margin-top: 10px;
+}

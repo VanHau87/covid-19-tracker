@@ -25,6 +25,11 @@ class App extends Component {
     const { data, country } = this.state;
     return (
       <div className={styles.container}>
+        <img
+          className={styles.image}
+          src="https://drive.google.com/uc?export=view&id=16NbIbKdHXTVuIpZpJeknxvhEyiZz2U7Z"
+          alt="covid-19 tracker"
+        />
         <Cards data={data} />
         <CountryPicker onCountryChange={this.handleCountryChange} />
         <Charts data={data} country={country} />
@@ -34,3 +39,4 @@ class App extends Component {
 }
 
 export default App;
+//https://drive.google.com/file/d/16NbIbKdHXTVuIpZpJeknxvhEyiZz2U7Z/view?usp=sharing
